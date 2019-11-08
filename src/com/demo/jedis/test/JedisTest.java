@@ -13,6 +13,7 @@ public class JedisTest {
 		Jedis jedis = new Jedis("192.168.255.6", 6379,60000);
 		String pong = jedis.ping();
 		System.out.println(pong);
+		System.out.println(pong);
 		jedis.close();
 	}
 
